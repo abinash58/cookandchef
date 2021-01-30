@@ -8,6 +8,7 @@
           <include name="tearDown"/>
           <include name="verifyContactUsPageUrl"/>
           <include name="setUP"/>
+          <include name="verifyContactUsPageFunctionality"/>
         </methods>
       </class> <!-- com.cookandchef.qa.testcases.ContactUsPageTest -->
       <class name="com.cookandchef.qa.testcases.HomePageTest">
@@ -21,10 +22,8 @@
       </class> <!-- com.cookandchef.qa.testcases.HomePageTest -->
       <class name="com.cookandchef.qa.testcases.LoginPageTest">
         <methods>
-          <include name="cookAndChefLogoTest"/>
           <include name="loginFunctionalityTest"/>
           <include name="tearDown"/>
-          <include name="loginPageTitleTest"/>
           <include name="setUP"/>
         </methods>
       </class> <!-- com.cookandchef.qa.testcases.LoginPageTest -->

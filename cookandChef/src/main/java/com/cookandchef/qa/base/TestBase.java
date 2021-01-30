@@ -22,7 +22,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					"E:\\Project\\cookandChef\\src\\main\\java\\com\\cookandchef\\qa\\config\\config.properties");
+					"E:\\GitRepo\\cookandChef\\src\\main\\java\\com\\cookandchef\\qa\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

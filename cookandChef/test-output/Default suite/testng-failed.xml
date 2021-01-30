@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cookandchef.qa.testcases.HomePageTest">
+      <class name="com.cookandchef.qa.testcases.LoginPageTest">
         <methods>
-          <include name="setUP"/>
-          <include name="homePageTitleTest"/>
+          <include name="loginFunctionalityTest"/>
           <include name="tearDown"/>
-          <include name="aboutPageTest"/>
+          <include name="setUP"/>
         </methods>
-      </class> <!-- com.cookandchef.qa.testcases.HomePageTest -->
+      </class> <!-- com.cookandchef.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
